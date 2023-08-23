@@ -12,7 +12,7 @@ class Compiler:
         index = 0
         while string[index] != '$':
             while string[index] == ' ':
-                i += 1
+                index += 1
 
             if string[index] == '+':
                 index += 1
